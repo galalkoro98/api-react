@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.header__title {
+    background-color: aqua;
+    padding: 2rem 6rem 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    border: 1px solid #0ac;
+    border-radius: 0px 150px 0px 150px;
+    box-shadow: 10px 20px 10px #0ac;  
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 1.5rem;
+        padding: 1rem 4rem 1rem;
+        border-radius: 0px 100px 0px 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__title {
+        font-size: 1.2rem;
+        padding: 0.5rem 2rem 0.5rem;
+        border-radius: 0px 50px 0px 50px;
+    }
+}
+
+
+
