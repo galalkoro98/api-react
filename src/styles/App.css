@@ -1,0 +1,32 @@
+.main{
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+    .main {
+        height: 100vh;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: 100vh;
+        margin-bottom: 0px;
+    }
+}
+
+/* smartphones media query */
+
+@media (max-width: 390px) {
+    .main {
+        height: 100vh;
+        margin-bottom: 0px;
+    }
+}
