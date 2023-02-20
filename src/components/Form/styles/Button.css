@@ -1,0 +1,47 @@
+.button {
+    background-color: aqua;
+    padding: 0.5rem 1.2rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+    border: 1px solid #0ac;
+    border-radius: 30px 75px 30px 75px;
+    box-shadow: 5px 10px 5px #0ac;  
+    height: min-content;
+    width: max-content;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem 0.5rem;
+        border-radius: 0px 100px 0px 100px;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem 0.5rem;
+        border-radius: 0px 50px 0px 50px;
+        width: fit-content;
+    }
+}
+
+/* smartphones media query */
+
+@media (max-width: 390px) {
+    .button {
+        border-radius:12px;
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem 0.5rem;
+        width: fit-content;
+        height: 5vh;
+      
+    }
+}
+
+
