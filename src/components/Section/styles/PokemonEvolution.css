@@ -1,0 +1,69 @@
+.pokemon__evolution__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-top: 4em;
+    border: 1px solid #0AC;
+    padding: 0.5rem 1rem;
+    border-radius: 30px 10px 30px 10px;
+    box-shadow: aqua 0rem 0rem 0.5rem, aqua 0rem 0rem 1rem inset;
+    width: 15vw;
+    height: 35vh;
+}
+
+.pokemon__evolution__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.pokemon__evolution__text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.pokemon__evolution__image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 0 1px;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+    .pokemon__evolution__container{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .pokemon__evolution__container{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pokemon__evolution__container{
+        width: 100%;
+        height: 100%;
+    }
+}

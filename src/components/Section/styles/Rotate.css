@@ -1,0 +1,71 @@
+.pokemon__rotate__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50rem;
+    height: 50rem;
+}
+
+.pokemon__rotate__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+.pokemon__rotate__background__image {
+    width: 30rem;
+    position: absolute;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pokemon__rotate__evolution__image {
+    position: relative;
+    width: 15rem;
+    background-color: transparent;
+
+}
+
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+    .pokemon__rotate__container {
+        width: 50%;
+        height: 50%;
+    }
+
+    .pokemon__rotate__evolution__image{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pokemon__rotate__container {
+        width: 50%;
+        height: 50%;
+    }
+
+    .pokemon__rotate__evolution__image{
+        width: 50%;
+        height: 50%;
+    }
+
+
+
+}
