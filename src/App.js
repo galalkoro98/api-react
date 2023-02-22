@@ -1,8 +1,8 @@
-import "./styles/font.css";
-import "./styles/general.css";
+
 import "./styles/App.css";
 
 import { Header } from "./components/Header/Header";
+import { Section } from "./components/Section";
 import { Form } from "./components/Form/Form";
 
 export const App = () => {
@@ -10,6 +10,7 @@ export const App = () => {
     <>
       <Header />
       <main className="main">
+        <Section />
         <Form />
       </main>
     </>
