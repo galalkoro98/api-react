@@ -1,9 +1,11 @@
 import "./styles/PokemonID.css";
 
-export const PokemonID = () => {
+export const PokemonID = (props) => {
   return (
     <div className="pokemon__id__container">
-      <span className="pokemon__id">#4</span>
+      {props.pokemon && (
+        <span className="pokemon__id">#{props.pokemon.id}</span>
+      )}
     </div>
   );
 };

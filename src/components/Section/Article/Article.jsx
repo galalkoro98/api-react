@@ -4,13 +4,13 @@ import { PokemonEvolutionChain } from "./PokemonEvolutionChain";
 
 import "./styles/Article.css";
 
-export const Article = () => {
+export const Article = (props) => {
   return (
     <article className="pokemon__article">
       <div className="pokemon__article__container">
-        <PokemonAbilities />
-        <PokemonMovies />
-        <PokemonEvolutionChain />
+        <PokemonAbilities pokemon={props.pokemon} />
+        <PokemonMovies pokemon={props.pokemon} />
+        <PokemonEvolutionChain evolutionChain={props.evolutionChain} />
       </div>
     </article>
   );

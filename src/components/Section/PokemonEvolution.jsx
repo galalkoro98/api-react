@@ -1,6 +1,7 @@
 import "./styles/PokemonEvolution.css";
 
-export const PokemonEvolution = () => {
+export const PokemonEvolution = (props) => {
+  // console.log("test", props.preEvolution);
   return (
     <div className="pokemon__evolution__container">
       <div className="pokemon__evolution__content">

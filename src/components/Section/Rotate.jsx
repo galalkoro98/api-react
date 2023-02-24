@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./styles/Rotate.css";
-export const Rotate = () => {
+export const Rotate = (props) => {
   return (
     <div className="pokemon__rotate__container">
       <div className="pokemon__rotate__content">
@@ -14,6 +14,10 @@ export const Rotate = () => {
           className="pokemon__rotate__evolution__image"
           src="../../assets/images/evolution.png"
           alt="evolution img"
+          {...(props.pokemon.sprites &&
+            props.pokemon.sprites.front_default && {
+              src: props.pokemon.sprites.other.home.front_default,
+            })}
         />
       </div>
     </div>
